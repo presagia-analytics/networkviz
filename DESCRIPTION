@@ -1,0 +1,15 @@
+Package: subtypeviz
+Title: Visualize subtype analyses
+Version: 0.0.1
+Authors@R: 
+    person(given = "Michael John",
+           family = "Kane",
+           role = c("aut", "cre"),
+           email = "mkane@presagia.ai")
+Description: What the package does (one paragraph).
+License: LGPL-2
+Imports: igraph, tidygraph, ggplot2, threejs
+Suggest: knitr, testthat
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

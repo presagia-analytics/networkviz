@@ -1,5 +1,5 @@
-Package: subtypeviz
-Title: Visualize subtype analyses
+Package: networkviz
+Title: Visualize networks
 Version: 0.0.1
 Authors@R: 
     person(given = "Michael John",

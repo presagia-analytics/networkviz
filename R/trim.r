@@ -30,7 +30,7 @@ trim_edges.tbl_graph <- function(g, k = 2*length(V(g)), method = "top_k") {
     ws <- order(E(g)$weight, decreasing = TRUE)
     cutoff <- E(g)$weight[ws][min(length(E(g)), k)]
   } else if (method == "cutoff") {
-    k <- cutoff
+    cutoff <- k
   }
   g %E>% filter(weight > cutoff)
 }
